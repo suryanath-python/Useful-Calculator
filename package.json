@@ -1,0 +1,27 @@
+{
+    "name": "useful-calculator",
+    "version": "1.0.0",
+    "author": "Suryanath <suryanath.arya@gmail.com>",
+    "email": "suryanath.arya@gmail.com",
+    "license": "MIT",
+    "main": "main.js",
+    "homepage": "https://suryasportfolio.netlify.app/",
+    "devDependencies": {
+        "electron": "^11.0.3",
+        "electron-builder": "^22.9.1"
+    },
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "build":{
+        "appId": "com.example.app",
+        "productName": "Useful Calculator",
+        "linux":{
+            "target":[
+                "deb"
+            ]
+        }
+    }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Useful Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="index.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="left">
+    <h1>BMI</h1>
+    <!-- <br> -->
+    <h2>CALCULATOR</h2>
+  </div>
+  <div class="sidebar"></div>
+  <div class="topnav" id="myTopnav">
+  </div>
+  <img src="images/health_icon.png" alt="" class="topnav_img"></img>
+  <div class="topnav_heading"><b>Useful Calculator</b>
+  </div>
+  <!-- <h1>BMI Calculator</h1> -->
+  
+  <form>
+    <label class="label1">
+      <input type="text" placeholder="Height" style="margin-bottom:2vw;" id="heights" />
+    </label>
+
+    <label class="label2">
+      <input type="text" placeholder="Weight" id="weights" />
+    </label>
+  </form>
+
+  <img src="images/thin.png" alt="" class="thin">
+  <img src="images/normal.png" alt="" class="normal">
+  <img src="images/fat.png" alt="" class="fat">
+
+  <div class="textbox" id="textbox"><br>
+    <p id="bmi">
+    </p>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <button onclick="BMI()" class="button">Calculate</button>
+  <button class="thin1" id="thin2">Thin</button>
+  <button class="normal1" id="normal">Normal</button>
+  <button class="fat1" id="fat">Obese</button>
+
+  <a href="index.html"><img src="images/bmi.png" alt="" class="bmi_img"></a>
+  <a href="scientific_calc.html"><img src="images/s_calc.png" alt="s_calc" class="s_calc"></a>
+
+</body>
+
+</html>
