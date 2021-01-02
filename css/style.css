@@ -1,0 +1,346 @@
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+.left{
+    position: absolute;
+    background-color: rgb(15, 15, 139);
+    height: 15vh;
+    width: 34vw;
+    border-top-right-radius: 5vw;
+    box-shadow: inset 0 0 5vw rgb(8, 8, 194);
+    border-bottom-right-radius: 5vw;
+    top: 12vh;
+    left: 2vw;
+}
+
+.left h1{
+    margin-left: 7vw;
+    margin-bottom: -1.5vw;
+    margin-top: 0.1vw;
+    color: white;
+    font-size: 6vw;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.left h2{
+    margin-left: 7vw;
+    margin-right: 5vw;
+    padding-top: 0;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 4vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 6vw;
+    background-color: rgb(24, 34, 43);
+    box-shadow: 0px 1vw 4vw -25px rgb(36, 33, 33);
+}
+
+.bmi_img{
+    position: absolute;
+    max-width: 5%;
+    height: auto;
+    left: 0.4vw;
+    top: 12vh;
+}
+
+.s_calc{
+    position: absolute;
+    max-width: 5%;
+    height: auto;
+    left: 0.4vw;
+    top: 22vh;
+}
+
+a:hover{
+    background-color: white;
+}
+
+br{
+    display: none;
+}
+
+body{
+    background-color: rgb(26, 38, 49);
+    overflow-x: hidden;
+    margin: 0 0 120px;
+}
+
+.topnav {
+    background-color: rgb(24, 34, 43);
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1vw 4vw -25px rgb(36, 33, 33);
+    width: 100vw;
+    height: 7vw;
+}
+
+.topnav_img{
+    position: absolute;
+    top: 1.4vw;
+    left: 1.5vw;
+    max-width: 4%;
+    height: auto;
+}
+
+.topnav_heading{
+    position: absolute;
+    top: 1vw;
+    left: 7vw;
+    color: white;
+    text-decoration: bold;
+    font-size: 4.1vw;
+    font-family: sans-serif;
+}
+
+input {
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 60%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #ccc;
+    outline: none;
+    appearance: none;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    border-radius: 3vw;
+    -webkit-appearance: none;
+}
+  
+input:focus {
+    box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+input[type=text]{
+    text-decoration: bold;
+    font-size: 3vh;
+    padding-left: 2.4vw;
+    font-family: cursive;
+    color: coral;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 3vh;
+    font-family: cursive;
+    padding-top: 1vw;
+}
+input:-moz-placeholder {
+    font-size: 3vh;
+    padding-left: 1.5vw;
+    padding-top: 5vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 16px*1.5;
+    width: 100%;
+  }
+
+form
+{
+    padding: 10vw;
+    outline: none;
+    width: 70vw;
+    margin-top: 15vw;
+}
+
+.button{
+    background-color: rgb(15, 15, 139);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    box-shadow: 0  0.5vw #999;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    border-radius: 5vw;
+    font-family: sans-serif;
+    outline: none;
+    display:block;
+    margin-top: 3vw;
+    position: absolute;
+    top: 41vw;
+    left: 25vw;
+}
+
+.thin1{
+    position: absolute;
+    top: 41vw;
+    left: 52vw;
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    border-radius: 5vw;
+    font-family: sans-serif;
+    outline: none;
+    display:block;
+    margin-top: 3vw;
+}
+
+.normal1{
+    position: absolute;
+    top: 41vw;
+    left: 65.9vw;
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    border-radius: 5vw;
+    font-family: sans-serif;
+    outline: none;
+    display:block;
+    margin-top: 3vw;
+}
+
+.fat1{
+    position: absolute;
+    top: 41vw;
+    left: 82.6vw;
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2vw;
+    border-radius: 5vw;
+    font-family: sans-serif;
+    outline: none;
+    display:block;
+    margin-top: 3vw;
+}
+
+.button:hover {background-color: rgb(9, 9, 146)}
+
+.button:active {
+  background-color: rgb(9, 9, 146);
+  box-shadow: 0  0.36603221083455345vw #666;
+  transform: translateY(0.29282576866764276vw);
+}
+
+.textbox{
+    display: none;
+    background-color: rgb(38, 59, 78);
+    width: 85%;
+    border-radius: 2vw;
+    position: absolute;
+    top: 52vw;
+    left: 7vw;
+    margin: auto;
+    padding-top: 2.4vw;
+    margin-left: 2.5%;
+    box-shadow: 0px 0.7320644216691069vw 1px rgb(47, 67, 85), 0 0.7320644216691069vw 1.4641288433382138vw black;
+    margin-bottom: 3vw;
+}
+
+.textbox p{
+    text-align: justify;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9vw;
+    margin-top:0;
+    color: rgb(0, 183, 255);
+}
+
+.thin{
+    position: absolute;
+    top: 31vh;
+    left: 53vw;
+    max-width: 10%;
+}
+
+.normal{
+    position: absolute;
+    top: 29vh;
+    left: 67vw;
+    max-width: 11%;
+}
+
+.fat{
+    position: absolute;
+    top: 28vh;
+    left: 77.5vw;
+    max-width: 25%;
+}
+
+@media screen and (min-width: 1300px) {
+    .button{
+        top: 37vw;
+    }
+    
+    .thin1{
+        top: 36vw;
+        left: 54vw;
+    }
+
+    .normal1{
+        top: 36vw;
+        left:67.9vw;
+    }
+
+    .fat1{
+        top: 36vw;
+        left: 84.6vw;
+    }
+
+    .textbox{
+        padding-top: 1vw;
+        top: 48vw;    
+    }
+    .spacer{
+        top: 50vw;
+    }
+    .left{
+        width: 32vw;
+        top: 15vh;
+    }
+
+    .left h1{
+        margin-top: 0vw;
+        font-size: 5vw;
+    }
+
+    .left h2{
+        font-size: 3vw;
+    }
+
+    form{
+        margin-top: 13vw;
+    }
+    br{
+        display: block;
+        position: absolute;
+        top: 50vw;
+    }
+    .bmi_img{
+        top: 15vh;
+    }
+    .s_calc{
+        top: 27vh;
+    }
+}
